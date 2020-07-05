@@ -6,7 +6,7 @@ Input your stocks value into array
 like `ar=(10 30 44 44 69 12 11 20 38 41)`
 
 ## Usage
-assign required permission 
+Assign required permission 
 `chmod +x StockProfits.sh`
 
 Run the script
