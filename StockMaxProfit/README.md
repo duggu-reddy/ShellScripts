@@ -1,4 +1,5 @@
-# Bash Script for Maximum Possible profit of Stocks per a day
+# Bash Script for Maximum Possible profit of a day Stock 
+Script is to get a stock price for a given commodity is measured at hourly intervels during the day, from 9AM until 6PM (Can ber modified for a day too)
 
 
 ## Inputs
