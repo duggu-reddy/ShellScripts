@@ -1,0 +1,12 @@
+[
+    {
+        "RES": "*",
+        "EFF": "Allow",
+        "ACT": [
+            "ec2:CreateNetworkInterface",
+            "ec2:DeleteNetworkInterface",
+            "ec2:DescribeNetworkInterfaces",
+            "galaxy:DescribeDomains"
+        ]
+    }
+]

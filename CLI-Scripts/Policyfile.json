@@ -1,0 +1,37 @@
+[
+    {
+        "RES": [
+            "*"
+        ],
+        "EFF": "Allow",
+        "ACT": [
+            "appstream:CreateSession",
+            "appstream:GetApiRoot",
+            "appstream:GetApplication",
+            "appstream:GetApplications",
+            "appstream:GetApplicationStatus",
+            "appstream:GetSession",
+            "appstream:GetSessions",
+            "appstream:GetSessionStatus",
+            "appstream:UpdateSessionState"
+        ]
+    },
+    {
+        "RES": [
+            "*"
+        ],
+        "EFF": "Allow",
+        "ACT": [
+            "dynamodb:*"
+        ]
+    },
+    {
+        "RES": [
+            "*"
+        ],
+        "EFF": "Allow",
+        "ACT": [
+            "s3:GetObject"
+        ]
+    }
+]
