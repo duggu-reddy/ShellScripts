@@ -1,5 +1,5 @@
 #!/bin/bash
-### Author : Narasimha R Duggu (narduggu@in.ibm.com)
+### Author : Narasimha R Duggu (duggu.narasimhareddy@gmail.com)
 
 ## Check ACM Certificates and Generate HTML Report.
 
