@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MS_SBJT="KANTART AWS PROD - IAM Users WIHTOUT MFA "
-MS_LIST="narduggu@in.ibm.com"
+MS_SBJT="AWS PROD - IAM Users WIHTOUT MFA "
+MS_LIST="duggu.narasimhareddy@gmail.com"
 
 ## Run below command to list all IAM users in AWS account
 aws iam list-users --query 'Users[*].UserName' --output table | awk -F' ' '{print $2}' | tail -n +4 > /home/duggun/ListIAMusers.txt
