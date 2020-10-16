@@ -1,11 +1,5 @@
 #!/bin/bash
-#### Script to get list-entities-for-policy 
-#### narduggu@in.ibm.com
-#### 24-June-2020
-
-#!/bin/bash
 #### Script to get list-entities-for-policy
-#### narduggu@in.ibm.com
 #### 24-June-2020
 for line in $(cat /home/duggun/inputfiles/AccountTotalCustomIAMPolicies.txt)
   do
