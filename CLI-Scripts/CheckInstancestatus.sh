@@ -6,14 +6,14 @@
 filedate=$(date "+%d%m%Y_%H%M%S")
 filename=InstanceStatusDetails_"$filedate"
 MS_MAIL="Status of EC2 Instances "
-MAILTO=ch.kishorreddy@gmail.com
+MAILTO=duggu.narasimhareddy@gmail.com
 regionDetails="eu-west-1"
-VPCID="vpc-029ea864"
+VPCID="vpc-xxxxxxx"
 
 #### Filter instance using VPC details and get Instance-id details.
 instances=`aws ec2 describe-instances --filters "Name=network-interface.vpc-id,Values=$VPCID"  --region eu-west-1 --query 'Reservations[*].Instances[*].[InstanceId]' --output text | awk '{print}' ORS=',' | sed 's/.\w*$//'`
 #### Instance Details with comma (,) separated to check the status
-#instances="i-e2e789ftfd3af,i-7890538c0411b,i-e987fd3af"
+#instances="i-e2etfd3af,i-7890c0411b,i-e9d3af"
 
 
 export IFS=','
