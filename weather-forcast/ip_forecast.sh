@@ -2,11 +2,16 @@
 ## Input the IP Address to get weather forecast for the next 3 days
 if [ -z "$1" ]
 then
-        echo "IP Address to get weather forecast is Default"
+        #echo "IP Address to get weather forecast is Default"
+        city=$(curl --silent https://ipinfo.io/ | grep city | awk -F" " '{print $2}' | tr -d '"' | tr -d ",")
         location=$(curl --silent http://ipinfo.io/ | grep loc | awk -F" " '{print $2}' | tr -d '"' |sed 's/.\{1\}$//')
+        ip=$(curl --silent https://ipinfo.io | grep ip | awk -F" " '{print $2}' | tr -d '"' | tr -d "," | head -1)
+        echo "Weather forecast for "$ip" ($city)"
 else
-        echo "IP Address to get weather forecast is $1"
+        #echo "IP Address to get weather forecast is $1"
+        city=$(curl --silent https://ipinfo.io/$1 | grep city | awk -F" " '{print $2}' | tr -d '"' | tr -d ",")
         location=$(curl --silent http://ipinfo.io/$1 | grep loc | awk -F" " '{print $2}' | tr -d '"' |sed 's/.\{1\}$//')
+        echo "Weather forecast for "$1" ($city)"
 fi
 
 ## To get weather forecast
