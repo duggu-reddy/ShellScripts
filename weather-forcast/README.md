@@ -21,8 +21,8 @@ If required, in Debug Mode
 
 
 ## Sample Output
-`root@test-instance:~# sh ip_forcast.sh 202.79.128.151\
-IP Address to get weather forecast is 202.79.128.151\
+`root@test-instance:~# sh ip_forcast.sh 202.79.128.151`\
+`IP Address to get weather forecast is 202.79.128.151`\
 2020-11-18: Possible light rain overnight.\
 2020-11-19: Rain in the morning and afternoon.\
 2020-11-20: Clear throughout the day.\`
