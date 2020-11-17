@@ -1,5 +1,5 @@
 # Bash Script to fetch the weather forecast for the next 3 days (starting tomorrow) for a given IP address.
-Script is to get a stock price for a given commodity is measured at hourly intervels during the day, from 9AM until 6PM (Can ber modified for a day too)
+
 
 ## Pre-requesits
 * Make sure you have internet connection where the script is going to run
@@ -33,7 +33,3 @@ If required, in Debug Mode
 `2020-11-18: Humid and mostly cloudy throughout the day.`\
 `2020-11-19: Humid and partly cloudy throughout the day.`\
 `2020-11-20: Humid and mostly cloudy throughout the day.`\
-
-
-
-
