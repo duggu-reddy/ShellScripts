@@ -17,7 +17,7 @@ Run the script
 `sh weather-forecast.sh`
 
 If required, in Debug Mode
-`sh -xv StockProfits.sh`
+`sh -xv weather-forecast.sh`
 
 
 ## Sample Output
